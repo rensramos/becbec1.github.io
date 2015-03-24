@@ -1,3 +1,8 @@
+---
+published: true
+title: Learn All The Things
+---
+
 ### This is how I feel lately:
 ![learnAllTheThings.jpg]({{ site.baseurl }}/assets/uploads/learnAllTheThings.jpg)
 
