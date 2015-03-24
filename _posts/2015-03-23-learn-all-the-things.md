@@ -1,7 +1,3 @@
----
-published: false
----
-
 ### This is how I feel lately:
 ![learnAllTheThings.jpg](/_posts/learnAllTheThings.jpg)
 
