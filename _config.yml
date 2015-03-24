@@ -3,3 +3,9 @@ title: Rebecca Diane Harris
 description: All Things Visual
 permalink: /:categories/:title/
 google_analytics_code:
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "default"
