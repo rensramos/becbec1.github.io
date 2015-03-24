@@ -14,3 +14,13 @@ prose:
   rooturl: "_posts"
   media: "assets/uploads"
   siteurl: "http://www.rebeccadianeharris.com"
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: 'select'
+          options:
+            - name: 'true'
+              value: 'true'
+            - name: 'false'
+              value: 'false'
