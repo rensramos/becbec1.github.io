@@ -17,14 +17,9 @@ prose:
   metadata:
     _posts:
       - name: "published"
-        label: "Published"
         field:
-          element: 'select'
-          options:
-            - name: 'true'
-              value: true
-            - name: 'false'
-              value: false
+          element: 'hidden'
+          value: true
       - name: "title"
         field:
           element: "text"
