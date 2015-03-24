@@ -17,6 +17,7 @@ prose:
   metadata:
     _posts:
       - name: "published"
+        label: "Published"
         field:
           element: 'select'
           options:
