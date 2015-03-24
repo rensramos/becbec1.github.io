@@ -26,6 +26,6 @@ prose:
             - name: 'false'
               value: false
       - name: "title"
-            field:
-              element: "text"
-              label: "title"
+        field:
+          element: "text"
+          label: "title"
