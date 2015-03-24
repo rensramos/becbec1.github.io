@@ -1,3 +1,8 @@
+---
+published: true
+title: Getting Started With Design
+---
+
 I've been wanting to get started with web design for a while now. I've always been interested in visual design, having a degree in fine art, but it was never anything serious. However, in the last year I have found myself being drawn to digital design.
 
 The problem is, I was approaching it like I approach swimming pools. I like to dip my toes in first and keep them there...for a while. If I don't jump in first thing then who knows how long it will take to get in.
