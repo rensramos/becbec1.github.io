@@ -9,3 +9,6 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+prose:
+  rooturl: "_posts"
+  media: "assets/uploads"
