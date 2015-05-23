@@ -57,6 +57,8 @@ The site has the article split onto multiple pages which is disruptive. It makes
 
 ### Good News Site
 
+![cnn.png]({{site.baseurl}}/assets/uploads/cnn.png)
+
 In contrast, cnn.com is very well designed.  There are no distracting elements on the page, except for one or two adds on the right side. Those aren’t really distracting since they are nestled among links to other news articles and videos. There is no distracting button on their site, they use continuos scrolling that allows for uninterrupted reading.
 
 ## Poster Designs
