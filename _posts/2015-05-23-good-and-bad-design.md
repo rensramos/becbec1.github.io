@@ -4,6 +4,7 @@ title: Good and Bad Design
 ---
 
 
+
 For an assignment I needed to analyze good and bad designs from similar categories.
 
 ## Political Sites
@@ -73,7 +74,7 @@ Both posters display the phrase “Where there is a will, there is a way”.
 The first example at first looks hip and modern, that is until you try to read it.  It took me several seconds and way too much brain power to work out what it was supposed to say. Design should never obscure a message or make a user waste brain power.
 It’s composition is interesting and bold but the word’s are placed in such a way that its very difficult to read. Your brain knows that the words are supposed to be part of a whole even though different colors and text orientations are used. However, the words are too disjointed. There is no clear indecation of where we are supposed to begin reading. Is it ‘theres’ or ‘where’. They are both the same size and located at the top. It would have been helpful to make the first word larger so the visual hierachey  was clear.
 
-### Bad Poster Design
+### Good Poster Design
 
 ![goodPoster.png]({{site.baseurl}}/assets/uploads/goodPoster.png)
 
