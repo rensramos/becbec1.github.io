@@ -3,7 +3,6 @@ published: true
 title: Good and Bad Design
 ---
 
-## A New Post
 
 For an assignment I needed to analyze good and bad designs from similar categories. 
 
