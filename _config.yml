@@ -1,5 +1,5 @@
-baseurl: http://becbec1.github.io
-title: Rebecca Diane Harris
+baseurl:
+title: Rebecca Harris
 description: All Things Visual
 permalink: /:categories/:title/
 google_analytics_code: UA-31980509-7
