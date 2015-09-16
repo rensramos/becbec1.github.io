@@ -4,12 +4,20 @@ description: All Things Visual
 permalink: /:categories/:title/
 google_analytics_code: UA-31980509-7
 defaults:
-  -
-    scope:
-      type: "posts"
+  - scope:
+      type: posts
     values:
-      layout: "post"
+      layout: post
       published: true
+  - scope:
+      type: work
+    values:
+      layout: post
+      published: true
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
 prose:
   rooturl: "_posts"
   media: "assets/uploads"
