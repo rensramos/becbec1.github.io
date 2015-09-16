@@ -2,7 +2,24 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-	<h3><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h3>
-	<p>{{post.excerpt}}&hellip;</p>
-{% endfor %}
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h2>About</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum et augue sed dictum. Sed bibendum est ac fermentum pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer justo purus, finibus vitae vehicula et, efficitur non felis. Cras nec mollis nulla, sit amet accumsan urna. Duis eleifend lacus non vehicula luctus.</p>
+		</div>
+	</div>
+</section>
+
+<section id="blog" class="container content-section text-center">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<h2>Blog</h2>
+			{% for post in site.posts %}
+				<h3><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h3>
+				<p>{{post.excerpt}}&hellip;</p>
+			{% endfor %}
+		</div>
+	</div>
+</section>

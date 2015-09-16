@@ -8,7 +8,7 @@ defaults:
     scope:
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
       published: true
 prose:
   rooturl: "_posts"
