@@ -1,6 +1,6 @@
 baseurl:
 title: Rebecca Harris
-description: All Things Visual
+description: UX and UI Designer with a secret love of CSS.
 permalink: /:categories/:title/
 google_analytics_code: UA-31980509-7
 defaults:
