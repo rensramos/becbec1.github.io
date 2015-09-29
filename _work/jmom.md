@@ -1,4 +1,16 @@
 ---
 image: assets/uploads/learnAllTheThings.jpg
-description: J Mom is a project.
+description: JMom
 ---
+
+## Client
+
+## Role
+
+## Deliverables
+
+## Goals
+
+## Process
+
+## Results
