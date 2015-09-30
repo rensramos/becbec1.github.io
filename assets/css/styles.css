@@ -38,6 +38,10 @@ p {
     }
 }
 
+img {
+    width: 100%;
+}
+
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
