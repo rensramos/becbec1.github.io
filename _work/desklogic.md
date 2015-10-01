@@ -13,7 +13,7 @@ UI and UxD
 
 ## Deliverables
 
-Mood Boards, Style Tiles, Full Site Mockup, Site Style Guide
+Mood boards, style tiles, full site mockup, site style guide
 
 ## Goals
 
