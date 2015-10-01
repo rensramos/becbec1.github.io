@@ -55,6 +55,17 @@ a:focus {
     color: #1d9b6c;
 }
 
+section.post {
+    color: #333;
+    background-color: #FFF;
+}
+
+section.post img {
+    max-height: 500px;
+    width: inherit;
+    max-width: 100%;
+}
+
 .light {
     font-weight: 400;
 }
