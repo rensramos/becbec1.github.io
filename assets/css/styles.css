@@ -42,6 +42,19 @@ img {
     width: 100%;
 }
 
+img.floatLeft {
+    float: left;
+    width: 35%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img.halfWidth {
+    display: inline;
+    width: 40%;
+    margin-right: 5%;
+}
+
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
@@ -58,12 +71,6 @@ a:focus {
 section.post {
     color: #333;
     background-color: #FFF;
-}
-
-section.post img {
-    max-height: 500px;
-    width: inherit;
-    max-width: 100%;
 }
 
 .light {

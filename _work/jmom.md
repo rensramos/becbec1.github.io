@@ -27,17 +27,14 @@ JMom is an online matchmaking site where Jewish parents find potential matches f
 
 My partner and I began with competitive research, cultural research, and a heuristic analysis of the current site.
 
-![]({{site.baseurl}}/assets/uploads/jMom/process1.jpg)
-
 ![]({{site.baseurl}}/assets/uploads/jMom/process2.jpg)
+
+<img src="{{site.baseurl}}/assets/uploads/jMom/process4.jpg" class="floatLeft" />
 
 Our research showed that the original problem wasn’t the real issue. The client assumed that the high drop-off rate was due to too many steps in the sign up process. What we found is that rather, it was the types of questions being asked, coupled with a confusing interface that was causing user abandonment. These defects in the onboarding process were also creating problems with viewing and editing profiles later on for the user.
 
-![]({{site.baseurl}}/assets/uploads/jMom/process3.jpg)
-
 We also ran users tests and analyzed the site’s Google Analytics, which pointed out other usability issues as well. As a result we decided to revamp not only the onboarding, but the way users created, edited, and viewed profiles as well.
 
-![]({{site.baseurl}}/assets/uploads/jMom/process4.jpg)
 
 ## Design Principles
 
@@ -61,21 +58,22 @@ We wanted the site to serve one purpose and to clearly accomplish it with every 
 
 6 key areas were identified to make a complete profile. Only the most basic and critical were kept in the onboarding process. The rest were added to a ‘complete profile’ process. This way users can quickly onboard and explore the site.
 
-![]({{site.baseurl}}/assets/uploads/jMom/process6.jpg)
-
 6 key areas were identified to make a complete profile. Only the most basic and critical were kept in the onboarding process. The rest were added to a ‘complete profile’ process. This way users can quickly onboard and explore the site.
 
 ![Working out the kinks in the personality section.]({{site.baseurl}}/assets/uploads/jMom/process7.jpg)
 
+<div>
+
+<img src="{{site.baseurl}}/assets/uploads/jMom/personalityAfter.png" class="halfWidth" />
+</div>
+
 Before:
 
-![]({{site.baseurl}}/assets/uploads/jMom/personalityBefore.jpg)
+<img src="{{site.baseurl}}/assets/uploads/jMom/personalityBefore.jpg" class="floatLeft" />
 
 The original onboarding process included asking a lot of broad questions about the user’s child. The blank form fields were intimidating and created a fear of not saying the “right thing”.
 
 After:
-
-![]({{site.baseurl}}/assets/uploads/jMom/personalityAfter.png)
 
 The new personality section relies more on recognition rather than recall. It also creates similar characteristics that can be later used to sort matches. Users are able to add extra information and even write short paragraphs if they feel that the defaults don’t do their child justice.
 
