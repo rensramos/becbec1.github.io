@@ -352,9 +352,26 @@ body {
     padding-bottom: 50px;
 }
 
-.row.deliverablesRow {
+.centerAlign {
+    text-align: center;
+}
+
+.row.whiteRow {
+    background-color: #FFF;
+    color: #3C3C3C;
+}
+
+.row.whiteRow h2,
+.row.whiteRow h3 {
+    text-align: center;
+}
+
+.row.greenRow {
     background-color: #42B2AE;
     color: #FFF;
+}
+.row.greenRow h2,
+.row.greenRow h3 {
     text-align: center;
 }
 
@@ -362,4 +379,17 @@ body {
     padding-top: 200px;
     background-size: cover;
     text-align: center;
+}
+
+.container.greyContainer {
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #C7C7C7;
+    color: #3C3C3C;
+}
+
+.resultsImage {
+    height: 500px;
+    overflow: scroll;
 }
