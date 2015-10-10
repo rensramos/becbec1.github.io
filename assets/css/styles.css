@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -49,7 +49,7 @@ p {
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 30px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -57,6 +57,7 @@ p {
 
 img {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 a {
@@ -398,9 +399,12 @@ body {
     padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #C7C7C7;
+    background-color: #E5E5E5;
     color: #3C3C3C;
     border-radius: 20px;
+}
+.whiteContainer {
+    margin-top: 50px;
 }
 
 .resultsImage {
@@ -411,6 +415,8 @@ body {
 img.floatRight {
     float: right;
     width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 img.rounded {
     border-radius: 20px;
@@ -429,7 +435,12 @@ p.intro-text {
 p.imageDescription {
     text-align: center;
     font-style: italic;
+    font-size: 15px;
 }
 .resultsRow img {
     border: 1px solid #CCC;
+}
+.row .row {
+    padding-top: 0;
+    padding-bottom: 0;
 }
