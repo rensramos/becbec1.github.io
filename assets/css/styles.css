@@ -70,7 +70,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #42dca3;
 }
 
 section.post {
@@ -433,6 +433,7 @@ p.intro-text {
     margin-bottom: 0;
 }
 p.imageDescription {
+    margin-top: 30px;
     text-align: center;
     font-style: italic;
     font-size: 15px;
