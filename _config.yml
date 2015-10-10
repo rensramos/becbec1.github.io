@@ -12,7 +12,7 @@ defaults:
   - scope:
       type: work
     values:
-      layout: post
+      layout: default
       published: true
 collections:
   work:
