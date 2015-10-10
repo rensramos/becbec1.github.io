@@ -430,3 +430,6 @@ p.imageDescription {
     text-align: center;
     font-style: italic;
 }
+.resultsRow img {
+    border: 1px solid #CCC;
+}
