@@ -393,3 +393,8 @@ body {
     height: 500px;
     overflow: scroll;
 }
+
+img.floatRight {
+    float: right;
+    width: 50%;
+}
