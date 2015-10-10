@@ -394,7 +394,7 @@ body {
     color: #F9D21B;
 }
 
-.container.greyContainer {
+.greyContainer {
     padding: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
