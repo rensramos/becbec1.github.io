@@ -20,6 +20,9 @@ h2 {
 h1 {
     font-size: 120px;
 }
+h2 {
+    font-size: 40px;
+}
 
 h1,
 h2,
@@ -361,6 +364,9 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.row h2 {
+    text-align: center;
+}
 
 .centerAlign {
     text-align: center;
@@ -371,18 +377,13 @@ body {
     color: #3C3C3C;
 }
 
-.row.whiteRow h2,
-.row.whiteRow h3 {
+.row.whiteRow h2 {
     text-align: center;
 }
 
 .row.greenRow {
     background-color: #42B2AE;
     color: #FFF;
-}
-.row.greenRow h2,
-.row.greenRow h3 {
-    text-align: center;
 }
 
 .row.headerRow {
@@ -421,4 +422,11 @@ p.intro-text {
     font-size: 60px;
     color: #FFF;
     font-weight: 100;
+}
+.row p:last-child {
+    margin-bottom: 0;
+}
+p.imageDescription {
+    text-align: center;
+    font-style: italic;
 }
