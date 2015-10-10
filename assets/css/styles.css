@@ -416,3 +416,8 @@ img.floatRight {
 img.rounded {
     border-radius: 20px;
 }
+p.intro-text {
+    font-size: 60px;
+    color: #FFF;
+    font-weight: 100;
+}
