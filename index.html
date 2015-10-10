@@ -46,10 +46,10 @@ layout: default
 					{% else %}
 					<div class="col-md-6" style="order: 2">
 					{% endif %}
-						<a href="{{work.url}}"><img src="{{work.image}}"/></a>
+						<a href="{{work.url}}"><img class="rounded" src="{{work.image}}"/></a>
 					</div>
 					<div class="col-md-6">
-						<p>{{work.description}}&hellip;</p>
+						<p>{{work.description}}</p>
 					</div>
 				</div>
 			{% endfor %}
