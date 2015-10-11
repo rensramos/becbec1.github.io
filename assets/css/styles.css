@@ -425,6 +425,20 @@ body {
     padding-left: 4%;
     overflow: scroll;
 }
+
+@media(max-width:653px) {
+    .resultsImage {
+        height: 300px;
+        padding-top: 20%;
+        margin-bottom: 50px;
+    }
+
+    .resultsImageScroll {
+        height: 300px;
+        width: 97%;
+        padding-left: 4%;
+    }
+}
 .resultsRow .resultsImageScroll img {
     border: inherit;
 }
