@@ -19,13 +19,21 @@ h2 {
     font-family: 'azo-sans-uber';
     font-weight: 500;
 }
-
 h1 {
     font-size: 120px;
 }
 h2 {
     font-size: 40px;
 }
+@media(max-width:800px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
 
 h1,
 h2,
@@ -459,6 +467,11 @@ p.intro-text {
     font-size: 60px;
     color: #FFF;
     font-weight: 100;
+}
+@media(max-width:800px) {
+    p.intro-text {
+        font-size: 25px;
+    }
 }
 .row p:last-child {
     margin-bottom: 0;
