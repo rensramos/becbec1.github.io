@@ -42,13 +42,13 @@ layout: default
 				<div class="row projectRow vertical-align">
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 					{% else %}
-					<div class="col-md-6" style="order: 2">
+					<div class="col-md-6 col-xs-12" style="order: 2">
 					{% endif %}
 						<a href="{{work.url}}"><img class="rounded" src="{{work.image}}"/></a>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-12">
 						<p>{{work.description}}</p>
 					</div>
 				</div>
