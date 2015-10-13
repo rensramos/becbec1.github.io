@@ -56,15 +56,3 @@ layout: default
 		</div>
 	</div>
 </section>
-
-<section id="blog" class="container content-section text-center">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h2>Blog</h2>
-			{% for post in site.posts %}
-				<h3><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h3>
-				<p>{{post.excerpt}}&hellip;</p>
-			{% endfor %}
-		</div>
-	</div>
-</section>
