@@ -72,7 +72,7 @@ img {
 }
 
 a {
-    color: #42dca3;
+    color: #42B2AE;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -81,7 +81,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #42dca3;
+    color: #42B2AE;
 }
 
 section.post {
@@ -296,17 +296,17 @@ section.post {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #42B2AE;
+    color: #42B2AE;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #42B2AE;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #42B2AE;
 }
 
 ul.banner-social-buttons {
@@ -421,7 +421,7 @@ body {
     height: 500px;
     padding-top: 20%;
     margin-bottom: 30px;
-    background-image: url("{{site.baseurl}}/assets/uploads/desklogic/browser.png");
+    background-image: url("{{site.baseurl}}/assets/uploads/deskLogic/browser.png");
     background-size: cover;
     background-position: left top;
 }
