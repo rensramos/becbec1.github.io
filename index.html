@@ -20,16 +20,37 @@ layout: default
 
 <section id="about" class="container content-section">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h2>About</h2>
-			<p>“With great power comes great responsibility”. - Uncle Ben</p>
-			<p>My life goal of being a super hero didn’t pan out. However, when I found out that there were people out in the world who dedicated their life to keeping the digital world a sane place I thought “ HECK YES”. Long story short, I became a designer, battling for the users’ rights to access usable, beautiful, and well thought out products. Life is good when you get to protect people from frustrating and time wasting experiences.</p>
-
-			<p>I may not be able to leap over buildings but I’ve got my own set of super powers:<br/>An intense drive to learn, super empathy (seriously people complain because I have a hard time taking sides), a love of collaboration, and the power of research.</p>
-			<p>My super hero tools:<br/>
-			Research and Analysis, User Interviews, Task Flows, Wire Framing, Prototyping, Site Mapping, User Testing, and much more.</p>
-
-			<p>Think we’d make good partners? Contact me at <a href="mailto:rebeccadianeharris@gmail.com">rebeccadianeharris@gmail.com</a></p>
+		<div class="col-lg-10 col-lg-offset-1">
+			<h2 class="yellow">About</h2>
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="centered">“With great power comes great responsibility”. - Uncle Ben</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-7">
+						<p>My life goal of being a super hero didn’t pan out. However, when I found out that there were people out in the world who dedicated their life to keeping the digital world a sane place I thought “ HECK YES”. Long story short, I became a designer, battling for the users’ rights to access usable, beautiful, and well thought out products. Life is good when you get to protect people from frustrating and time wasting experiences.</p>
+						<p>I may not be able to leap over buildings but I’ve got my own set of super powers:<br/>An intense drive to learn, super empathy (seriously people complain because I have a hard time taking sides), a love of collaboration, and the power of research.</p>
+					</div>
+					<div class="col-lg-4 col-lg-offset-1 col-sm-12 col-xs-8">
+						<p>My super hero tools:</p>
+						<ul class="fa-ul">
+							<li class="fa fa-bolt">Research and Analysis</li>
+							<li class="fa fa-bolt">User Interviews</li>
+							<li class="fa fa-bolt">Task Flows</li>
+							<li class="fa fa-bolt">Wire Framing</li>
+							<li class="fa fa-bolt">Prototyping</li>
+							<li class="fa fa-bolt">Site Mapping</li>
+							<li class="fa fa-bolt">User Testing</li>
+							<li class="fa fa-bolt">and much more.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="centered">Think we’d make good partners? Contact me at <a href="mailto:rebeccadianeharris@gmail.com">rebeccadianeharris@gmail.com</a></p>
+					</div>
+				</div>
 		</div>
 	</div>
 </section>
@@ -37,7 +58,7 @@ layout: default
 <section id="work" class="container content-section text-center">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
-			<h2>Work</h2>
+			<h2 class="yellow">Work</h2>
 			{% for work in site.work %}
 				<div class="row projectRow vertical-align">
 					{% assign loopindex = forloop.index | modulo: 2 %}

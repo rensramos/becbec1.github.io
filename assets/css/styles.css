@@ -58,12 +58,8 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 30px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
+p.centered {
+    text-align: center;
 }
 
 img {
@@ -82,6 +78,10 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #42B2AE;
+}
+
+.yellow {
+    color: #F9D21B;
 }
 
 section.post {
@@ -313,6 +313,21 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
+.fa-ul {
+    margin-left: 0;
+}
+.fa-ul li {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+.fa-bolt::before {
+    color: #F9D21B;
+}
+.fa-ul li:before {
+    margin-right: 1em;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
@@ -372,10 +387,6 @@ body {
     align-items: center;
 }
 
-.row {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 .row h2 {
     text-align: center;
 }
@@ -426,28 +437,12 @@ body {
     background-position: left top;
 }
 
-.resultsImageScroll {
-    height: 400px;
-    width: 96%;
-    padding-left: 4%;
-    overflow: scroll;
-}
-
 @media(max-width:653px) {
     .resultsImage {
         height: 300px;
         padding-top: 20%;
         margin-bottom: 50px;
     }
-
-    .resultsImageScroll {
-        height: 300px;
-        width: 97%;
-        padding-left: 4%;
-    }
-}
-.resultsRow .resultsImageScroll img {
-    border: inherit;
 }
 
 img.floatRight {
@@ -457,7 +452,7 @@ img.floatRight {
     margin-bottom: 20px;
 }
 img.rounded {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 h1.brand-heading {
     margin-bottom: 0px;
@@ -489,7 +484,21 @@ p.imageDescription {
 .resultsRow img {
     border: 1px solid #CCC;
 }
-.row .row {
-    padding-top: 0;
-    padding-bottom: 0;
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12 {
+    margin-bottom: 40px;
+}
+.largePadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
