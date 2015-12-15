@@ -60,16 +60,16 @@ layout: default
 		<div class="col-lg-8 col-lg-offset-2">
 			<h2 class="yellow">Work</h2>
 			{% for work in site.work %}
-				<div class="row projectRow vertical-align">
+				<div class="row projectRow">
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
-					<div class="col-md-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12">
 					{% else %}
-					<div class="col-md-6 col-xs-12" style="order: 2">
+					<div class="col-sm-6 col-xs-12" style="order: 2">
 					{% endif %}
 						<a href="{{work.url}}"><img class="rounded" src="{{work.thumbnail}}"/></a>
 					</div>
-					<div class="col-md-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12">
 						<p>{{work.description}}</p>
 					</div>
 				</div>
